@@ -1,0 +1,5 @@
+numpy
+tldextract
+pandas
+scikit-learn
+joblib
