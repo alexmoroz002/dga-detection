@@ -33,7 +33,7 @@ class CustomClassifier:
 
 
 def main():
-    df = pd.read_csv('train.csv').dropna()
+    df = pd.read_csv('datasets/train.csv').dropna()
     x_train, y_train = df.domain, df.is_dga
 
     q = CustomClassifier()

@@ -5,7 +5,7 @@ from textwrap import dedent
 
 
 def main():
-    df = pd.read_csv('val.csv').dropna()
+    df = pd.read_csv('datasets/val.csv').dropna()
     classifier = CustomClassifier()
     classifier.load()
     pred = classifier.predict(df.domain)
